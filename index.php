@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Welcome!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width" />
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
@@ -29,10 +29,10 @@
                     <ul class="navbar-nav ml-auto">
 
                         <li class="nav-item">
-                            <a href="login.php" class="btn btn-danger btn-round">Login</a>
+                            <a href="combined.php" class="btn btn-success btn-round">Login/Signup</a>
                         </li>
                         <li class="nav-item">
-                            <a href="singup.php" class="btn btn-danger btn-round">Singup</a>
+                            <a href="https://github.com/Shafat21" class="btn btn-warning ">Visit Github</a>
                         </li>
 
                     </ul>
