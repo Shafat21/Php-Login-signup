@@ -40,7 +40,7 @@ session_start();
           if ($decrypt) {
             $_SESSION['id'] = $row['id'];
             $_SESSION['username'] = $row['username'];
-            header("location: home.php");
+            header("location: dashboard.php");
 
 
           } else {
