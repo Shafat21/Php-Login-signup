@@ -4,7 +4,7 @@ session_start();
 include("connection.php");
 
 if (!isset($_SESSION['username'])) {
-    header("location:login.php");
+    header("location:combined.php");
 }
 
 $id = $_SESSION['id'];
@@ -20,7 +20,7 @@ $res_id = $result['id'];
 
 <head>
     <meta charset="UTF-8">
-    <title>Welcome!</title>
+    <title>Shafat Sign Up Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width" />
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
