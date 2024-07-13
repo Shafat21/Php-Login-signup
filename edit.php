@@ -44,7 +44,7 @@ if (!isset($_SESSION['username'])) {
                         echo "<div class='alert alert-success' role='alert'>
                     Profile Updated!
                     </div>";
-                        echo "<a href='home.php'><button class='btn btn-primary'>Go Home</button></a>";
+                        echo "<a href='dashboard.php'><button class='btn btn-primary'>Go Home</button></a>";
                     }
                 } else {
 
